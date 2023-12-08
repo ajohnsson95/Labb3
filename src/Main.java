@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Main {
 
     private static Scanner scanner = new Scanner(System.in);
-
     private static Connection connect() {
         String url = "jdbc:sqlite:C:\\Users\\ajohn\\SQLiteJava2023Datagrip";
         Connection conn = null;
